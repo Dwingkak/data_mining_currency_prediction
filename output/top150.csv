@@ -1,0 +1,151 @@
+,name_trans,viewData.symbol,sector_trans,industry_trans,last,pair_change_percent,eq_market_cap,turnover_volume
+0,Malayan Banking,MBBM,Financial,Money Center Banks,8.39,0.24,94.32B,11.60M
+1,Tenaga Nasional,TENA,Utilities,Electric Utilities,12.62,0.96,71.77B,4.38M
+2,Public Bank,PUBM,Financial,Money Center Banks,16.80,-0.59,65.22B,7.56M
+3,IHH Healthcare,IHHH,Healthcare,Healthcare Facilities,5.59,0.00,49.05B,6.56M
+4,CIMB Group,CIMB,Financial,Regional Banks,4.39,0.92,43.56B,20.49M
+5,Maxis,MXSC,Services,Communications Services,5.27,0.38,41.21B,3.81M
+6,Petronas Chemicals,PCGB,Basic Materials,Chemical Manufacturing,4.72,8.51,37.76B,13.62M
+7,Axiata,AXIA,Services,Communications Services,3.96,-0.75,36.29B,8.15M
+8,MISC,MISC,Transportation,Water Transportation,7.50,6.84,33.48B,10.82M
+9,Nestle,NESM,Consumer/Non-Cyclical,Food Processing,140.20,-0.57,32.88B,59.60K
+10,DiGi.Com,DSOM,Services,Communications Services,4.18,0.72,32.50B,3.54M
+11,Sime Darby Plantation,SIPL,Consumer/Non-Cyclical,Food Processing,4.61,3.60,31.74B,6.90M
+12,Hong Leong Bank,HLBB,Financial,Regional Banks,15.06,0.94,31.42B,753.30K
+13,Petronas Gas,PGAS,Energy,Oil & Gas Operations,15.60,0.65,30.87B,1.06M
+14,PPB,PEPT,Consumer/Non-Cyclical,Food Processing,17.68,3.51,25.15B,665.30K
+15,IOI Corp,IOIB,Consumer/Non-Cyclical,Crops,4.00,1.78,25.14B,4.03M
+16,RHB Bank,RHBC,Financial,Regional Banks,5.58,0.72,22.38B,5.24M
+17,Hap Seng Consolidated,HAPS,Basic Materials,Chemical Manufacturing,8.98,0.00,22.36B,490.00K
+18,Kuala Lumpur Kepong,KLKK,Consumer/Non-Cyclical,Crops,20.72,2.07,22.35B,545.70K
+19,Hartalega,HTHB,Healthcare,Medical Equipment & Supplies,6.48,1.25,21.91B,9.30M
+20,Petronas Dagangan,PETR,Energy,Oil & Gas Operations,20.18,0.30,20.05B,448.10K
+21,Dialog,DIAL,Energy,Oil Well Services & Equipment,3.25,5.52,18.32B,17.42M
+22,Press Metal Bhd,PMET,Basic Materials,Metal Mining,4.42,2.79,17.85B,1.43M
+23,Genting,GENT,Services,Hotels & Motels,4.54,0.67,17.48B,5.84M
+24,Hong Leong Financial,HLCB,Financial,Regional Banks,14.34,-2.45,16.28B,367.20K
+25,Top Glove Corp,TPGC,Healthcare,Medical Equipment & Supplies,6.28,2.95,16.09B,17.22M
+26,Genting Malaysia,GENM,Services,Hotels & Motels,2.70,2.27,15.26B,15.88M
+27,KLCC Property,KLCC,Services,Real Estate Operations,8.26,0.73,14.91B,838.40K
+28,Telekom Malaysia,TLMM,Services,Communications Services,3.50,1.45,13.18B,6.78M
+29,Sime Darby,SIME,Services,Retail (Specialty),1.93,1.05,13.13B,6.64M
+30,QL Resources,QRES,Consumer/Non-Cyclical,Food Processing,8.09,1.25,13.13B,1.17M
+31,Westports,WPHB,Transportation,Misc. Transportation,3.55,2.90,12.11B,4.55M
+32,Fraser Neave,FRAS,Consumer/Non-Cyclical,Beverages (Nonalcoholic),29.92,1.77,10.97B,205.20K
+33,AMMB,AMMB,Financial,Regional Banks,3.58,-1.38,10.78B,6.60M
+34,Malaysia Airport,MAHB,Transportation,Misc. Transportation,5.89,2.61,9.77B,4.32M
+35,YTL Corp,YTLS,Utilities,Electric Utilities,0.82,-0.61,8.76B,1.99M
+36,Carlsberg Brewery,CBMS,Consumer/Non-Cyclical,Beverages (Alcoholic),27.84,2.43,8.51B,605.00K
+37,Genting Plantations,GENP,Consumer/Non-Cyclical,Crops,9.42,-2.89,8.45B,383.00K
+38,Sunway,SWAY,Capital Goods,Construction Services,1.75,0.57,8.41B,2.78M
+39,Gamuda,GAMU,Capital Goods,Construction Services,3.29,2.17,8.27B,8.92M
+40,Heineken,HEIN,Consumer/Non-Cyclical,Beverages (Alcoholic),24.40,0.74,7.37B,139.20K
+41,Yinson,YINS,Capital Goods,Construction - Raw Materials,6.46,2.54,6.97B,3.25M
+42,IGB REIT,IGRE,Services,Real Estate Operations,1.94,1.04,6.88B,3.39M
+43,IJM Corp,IJMS,Capital Goods,Construction Services,1.86,3.33,6.75B,5.94M
+44,BIMB,BIMB,Financial,S&Ls/Savings Banks,3.70,1.65,6.63B,268.70K
+45,Kossan Rubber Ind,KRIB,Healthcare,Medical Equipment & Supplies,5.12,0.99,6.55B,2.51M
+46,Batu Kawan,BTKW,Basic Materials,Chemical Manufacturing,15.06,0.40,6.03B,6.60K
+47,Serba Dinamik,SERB,Energy,Oil Well Services & Equipment,1.93,4.32,5.95B,16.76M
+48,LPI Capital,LOND,Financial,Insurance (Prop. & Casualty),14.30,0.00,5.70B,79.60K
+49,Astro Malaysia,ASTR,Services,Business Services,1.08,1.89,5.63B,989.50K
+50,Sunway Real Estate Invest Trust,SUNW,Services,Real Estate Operations,1.9,1.06%,5.60B,1.73M
+51,TIME Dotcom,TCOM,Services,Communications Services,9.48,0.74%,5.55B,595.20K
+52,IOI Properties,IOIP,Capital Goods,Construction Services,0.985,0.51%,5.42B,5.02M
+53,United Plantations,UTPS,Consumer/Non-Cyclical,Crops,25.8,0.16%,5.35B,40.50K
+54,Pavilion REIT,PREI,Services,Real Estate Operations,1.75,1.16%,5.33B,1.43M
+55,YTL Power Int,YTLP,Capital Goods,Construction Services,0.645,0%,4.95B,1.94M
+56,Malaysia Building,MBSS,Financial,Consumer Financial Services,0.73,4.29%,4.90B,2.38M
+57,Sime Darby Property,SIPR,Capital Goods,Construction Services,0.715,2.14%,4.86B,1.39M
+58,Scientex Bhd,STIK,Basic Materials,Containers & Packaging,8.92,4.82%,4.60B,389.30K
+59,Inari Amertron,INAR,Technology,Semiconductors,1.36,2.26%,4.41B,12.93M
+60,SP Setia,SETI,Capital Goods,Construction Services,1.06,1.92%,4.37B,4.50M
+61,Bursa Malaysia,BMYS,Financial,Investment Services,5.29,0.76%,4.28B,2.52M
+62,KPJ Healthcare,KPJH,Healthcare,Healthcare Facilities,0.95,1.06%,4.07B,416.10K
+63,Malakoff Corporation Bhd,MALA,Utilities,Electric Utilities,0.83,0.61%,4.06B,1.03M
+64,MY EG Services,MYEG,Technology,Software & Programming,1.12,3.7%,3.88B,79.99M
+65,UOA Development,UOAD,Capital Goods,Construction Services,1.93,3.76%,3.79B,86.60K
+66,ViTrox Corp,VTRX,Technology,Scientific & Technical Instr.,8.05,0.63%,3.79B,42.60K
+67,Oriental,OTLS,Consumer Cyclical,Auto & Truck Parts,5.95,1.02%,3.69B,65.80K
+68,Felda Global Ventures,FGVH,Consumer/Non-Cyclical,Crops,0.995,-1.49%,3.63B,9.71M
+69,S P Setia Pref,SETIq,Capital Goods,Construction Services,0.88,2.33%,3.63B,38.40K
+70,DRB Hicom,DRBM,Consumer Cyclical,Auto & Truck Manufacturers,1.85,-0.54%,3.58B,5.47M
+71,Syarikat Takaful,TAKA,Financial,Insurance (Miscellaneous),4.3,1.18%,3.56B,2.87M
+72,Gas Malaysia,GASM,Utilities,Natural Gas Utilities,2.75,0%,3.53B,32.40K
+73,Aeon Credit Service,ANCR,Financial,Consumer Financial Services,13.46,0%,3.41B,194.60K
+74,BAT Malaysia,BATO,Consumer/Non-Cyclical,Tobacco,11.78,0.68%,3.36B,498.90K
+75,Lotte Chemical,LOTT,Basic Materials,Chemical Manufacturing,1.45,-0.68%,3.30B,3.57M
+76,Alliance Bank Malaysia,ALLI,Financial,Regional Banks,2.1,1.94%,3.25B,1.33M
+77,Airasia,AIRA,Transportation,Airline,0.97,0%,3.24B,15.56M
+78,AFFIN,AFIN,Financial,Regional Banks,1.62,0%,3.22B,242.80K
+79,UMW,UMWS,Consumer Cyclical,Auto & Truck Manufacturers,2.71,-5.57%,3.17B,2.67M
+80,Magnum,MAGM,Services,Casinos & Gaming,2.21,0.45%,3.14B,1.06M
+81,Berjaya Sports Toto,BSTB,Services,Casinos & Gaming,2.24,-0.88%,3.02B,797.20K
+82,IGB,IGBB,Services,Real Estate Operations,3.18,0%,2.80B,6.60K
+83,Hong Leong Ind,HLIB,Technology,Semiconductors,8.69,1.16%,2.78B,38.70K
+84,Dutch Lady Milk,DBMS,Consumer/Non-Cyclical,Food Processing,41.18,0.05%,2.64B,2.70K
+85,Allianz Malaysia,AINM,Financial,Insurance (Prop. & Casualty),14.62,0.41%,2.59B,122.40K
+86,Lafarge Malayan Cement,MALY,Capital Goods,Construction - Raw Materials,2.98,-1%,2.53B,182.90K
+87,Leong Hup International Berhad,LEOG,Consumer/Non-Cyclical,Fish/Livestock,0.67,0%,2.45B,1.22M
+88,Sunway Construction Group Bhd,SCOG,Capital Goods,Construction Services,1.89,3.85%,2.44B,473.40K
+89,Malaysian Resources,MYRS,Capital Goods,Construction Services,0.545,5.83%,2.40B,12.26M
+90,Lingkaran Trans Kota,LTKH,Transportation,Misc. Transportation,4.46,0.68%,2.37B,178.90K
+91,MMC Corp,MMCB,Transportation,Misc. Transportation,0.765,0.66%,2.33B,6.52M
+92,Supermax Corp,SUPM,Healthcare,Medical Equipment & Supplies,1.73,0%,2.29B,10.56M
+93,Guan Chong,GNCH,Consumer/Non-Cyclical,Food Processing,2.24,0%,2.26B,2.21M
+94,Cahya Mata Sarawak,CMSM,Capital Goods,Construction - Raw Materials,2.03,-2.87%,2.18B,785.90K
+95,Shangri La Hotels Malaysia,SHGM,Services,Hotels & Motels,4.9,0.2%,2.16B,2.20K
+96,Selangor Properties,SELS,Services,Real Estate Operations,6.27,0%,2.15B,0.00
+97,YTL Hospitality REIT,YTLR,Services,Real Estate Operations,1.25,0%,2.13B,1.78M
+98,VS Industry Bhd,VSID,Technology,Electronic Instr. & Controls,1.14,3.64%,2.12B,7.83M
+99,Frontken Corp,FRKN,Capital Goods,Construction Services,1.99,-1.97%,2.09B,7.94M
+100,Malaysian Pacific Ind,MPIM,Technology,Semiconductors,10.5,5%,2.09B,53.00K
+101,Mega First Corp,MEGA,Utilities,Electric Utilities,4.88,0.83%,2.08B,1.41M
+102,UEM Sunrise,UMSB,Capital Goods,Construction Services,0.455,-3.19%,2.06B,5.84M
+103,Pentamaster Corp,PMAS,Technology,Electronic Instr. & Controls,4.2,-3.45%,1.99B,3.97M
+104,CapitaLand Malaysia Mall,CAMA,Services,Real Estate Operations,0.96,0%,1.97B,326.90K
+105,Padini,PDNI,Services,Retail (Apparel),3,0%,1.97B,236.20K
+106,Bintulu Port,BPOT,Transportation,Misc. Transportation,4.2,0%,1.93B,0.00
+107,Faber,UEME,Services,Business Services,2.3,4.55%,1.91B,806.20K
+108,Panasonic Manufacture,PMMY,Basic Materials,Misc. Fabricated Products,31.2,0%,1.90B,7.20K
+109,MI Technovation,MITE,Capital Goods,Misc. Capital Goods,2.53,-4.17%,1.89B,9.80M
+110,Greatech Technology,GREA,Capital Goods,Misc. Capital Goods,2.88,-4%,1.88B,3.06M
+111,OSK,OSKH,Capital Goods,Construction Services,0.91,4%,1.86B,583.60K
+112,Sapura Energy,SAEN,Energy,Oil Well Services & Equipment,0.115,4.55%,1.83B,328.19M
+113,Bermaz Auto,BERA,Consumer Cyclical,Auto & Truck Manufacturers,1.54,-0.65%,1.79B,2.79M
+114,Sarawak Oil Palms,SOPS,Consumer/Non-Cyclical,Crops,2.97,2.77%,1.70B,57.40K
+115,Taliworks Corporation Bhd,TWRK,Utilities,Water Utilities,0.83,3.75%,1.67B,438.40K
+116,AEON Co,AEOM,Services,Retail (Department & Discount),1.18,-2.48%,1.66B,1.42M
+117,Eco World Develop,ECOW,Capital Goods,Construction Services,0.56,1.82%,1.65B,4.62M
+118,7 Eleven,SEVE,Services,Retail (Grocery),1.4,0%,1.61B,1.07M
+119,Matrix Concepts,MATR,Capital Goods,Construction Services,1.9,0.53%,1.56B,169.10K
+120,Eco World Intl,ECOD,Services,Real Estate Operations,0.65,0.78%,1.56B,3.04M
+121,Far East,FEHS,Consumer/Non-Cyclical,Crops,2.61,0%,1.55B,0.00
+122,ATA IMS,ATAI,Basic Materials,Containers & Packaging,1.28,4.07%,1.54B,1.90M
+123,SKP Resources Bhd,SKPR,Basic Materials,Fabricated Plastic & Rubber,1.22,3.39%,1.53B,836.40K
+124,Velesto Energy,VELE,Energy,Oil Well Services & Equipment,0.185,8.82%,1.52B,216.62M
+125,Keck Seng Malaysia,KSMS,Consumer/Non-Cyclical,Food Processing,4.22,-2.31%,1.52B,8.00K
+126,Unisem M,UNSM,Technology,Semiconductors,2.06,0.49%,1.50B,63.00K
+127,Kerjaya Prospek,KREJ,Basic Materials,Metal Mining,1.21,-0.82%,1.49B,309.60K
+128,YNH Property,YNHB,Capital Goods,Construction Services,2.69,-0.37%,1.43B,64.20K
+129,Dayang Enterprise,DEHB,Energy,Oil Well Services & Equipment,1.33,0.76%,1.41B,105.15M
+130,TA Global,TAGL,Services,Hotels & Motels,0.25,0%,1.40B,676.70K
+131,TSH Resources,TSHR,Consumer/Non-Cyclical,Crops,0.995,-2.45%,1.37B,603.00K
+132,Mah Sing,MAHS,Capital Goods,Construction Services,0.56,-1.75%,1.36B,4.53M
+133,Globetronics Tech,GNIC,Technology,Semiconductors,2.02,0.5%,1.35B,6.23M
+134,Focus Dynamics,FCDY,Capital Goods,Misc. Capital Goods,0.66,-1.49%,1.35B,27.57M
+135,Datasonic,DSON,Technology,Semiconductors,0.995,5.85%,1.34B,58.25M
+136,Ekovest,EKOV,Capital Goods,Construction Services,0.505,-0.98%,1.34B,28.94M
+137,GHL Systems,GHLS,Technology,Software & Programming,1.75,1.16%,1.31B,1.08M
+138,IJM Plantations,IJMP,Consumer/Non-Cyclical,Crops,1.49,0.68%,1.31B,54.10K
+139,Uwc,UWCB,,,2.19,-7.2%,1.30B,9.71M
+140,Boustead,BOUS,Energy,Oil & Gas Operations,0.625,0%,1.27B,412.80K
+141,Hap Seng Plantations,HAPP,Consumer/Non-Cyclical,Crops,1.59,2.58%,1.27B,82.00K
+142,MBM Resources,MBMR,Consumer Cyclical,Auto & Truck Parts,3.19,2.24%,1.25B,657.30K
+143,Tropicana Corp,TROP,Capital Goods,Construction Services,0.855,1.18%,1.24B,165.70K
+144,Berjaya Corp,BGRO,Healthcare,Medical Equipment & Supplies,0.23,0%,1.19B,22.21M
+145,Ideal Jacobs,WIDA,Basic Materials,Fabricated Plastic & Rubber,0.46,1.1%,1.13B,8.30M
+146,Uchi Technologies Bhd,UCHI,Technology,Semiconductors,2.5,0.4%,1.12B,386.60K
+147,Ranhill Holdings,RANH,Utilities,Electric Utilities,1.03,-0.96%,1.11B,623.20K
+148,Apex Healthcare,APER,Services,Retail (Drugs),2.33,4.02%,1.10B,368.60K
+149,LBS Bina Pref,LBSBq,Capital Goods,Construction Services,0.7,0%,1.08B,0.00
