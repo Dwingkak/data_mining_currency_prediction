@@ -29,18 +29,8 @@ browser.close()
 # keep only the first three columns
 data = data.iloc[:,0:2]
 
-# search for item with the name THB100
-thb_index = data["USD"] == "THB100"
-thb = data.index[thb_index].tolist()
-
-# removing unrelevant value at USD column
-clean_data = data.iloc[:tbh[0] - 1]
-
-# convert the column type to numeric
-clean_data.loc[:,'USD'] = pd.to_numeric(clean_data.loc[:,'USD'])
-
 # save dataframe into csv file
-clean_data.to_csv("./other/myr.csv")
+data.to_csv("./other/myr.csv")
 
 
 
