@@ -136,7 +136,7 @@ for name, link in links_name.items():
     print("Opening field date widget...")
     simulateClick("widgetFieldDateRange") 
     time.sleep(1)
-    print("inputing star date...")
+    print("inputing start date...")
     sDate = browser.find_element_by_id("startDate")
     sDate.clear()
     sDate.send_keys("03/01/2015")
