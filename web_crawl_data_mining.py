@@ -17,13 +17,13 @@ browser.get("https://www.investing.com/stock-screener/" +
                         "equityType::a|exchange::62%3Ceq_market_cap;1")
 print("waiting for 10s...")
 time.sleep(10)
-#%% enable the sector and industry columns
+# enable the sector and industry columns
 # reattempt for 10 times if item cannot be interacted
 def closePopUp():
     '''close pop up menu'''
     try:
         print("closing popup menu...")
-        close_popUp = browser.find_element_by_class_name("popupCloseIcon")
+        close_popUp = browser.find_element_by_xpath("/html/body/div[7]/div[2]/i")
         close_popUp.click()
     except:
         print("fail to close pop up menu...")
@@ -54,7 +54,7 @@ print("applying changes...")
 simulateClick("selectColumnsButton_stock_screener")
 time.sleep(1)
 
-#%% parse the page with beautiful soup to extract the table from the page
+# parse the page with beautiful soup to extract the table from the page
 def extract_rows(browser, tableId):
     '''extract rows from a table given an Id'''
     print("parsing page with BeautifulSoup...")
@@ -66,13 +66,13 @@ def extract_rows(browser, tableId):
     return get_rows
 
 get_rows = extract_rows(browser, "resultsTable")
-#%% get headers
+# get headers
 print("extracting headers from the table...")
 get_a_row = get_rows[0].find_all("td")
 headers = [i.get("data-column-name") for i in get_a_row
            if i.get("data-column-name")]
 
-#%% grab the data from the table in page 1
+# grab the data from the table in page 1
 print("extracting data from table..")
 
 def extract_data(get_rows, browser, headers):
@@ -116,16 +116,16 @@ def extractLink(get_rows, baseUrl):
 rows, links = extract_data(get_rows, browser, headers)
 print("closing browser...")
 browser.close()
-#%% saving data with pandas
+# saving data with pandas
 df = pd.DataFrame(rows, columns = headers)
 
-#%% saving dataframe in csv format
-# df.to_csv("./output/top150.csv")
+# saving dataframe in csv format
+df.to_csv("./output/top150.csv")
 
-#%% combining links and stocks name
+# combining links and stocks name
 links_name = dict(zip(df.name_trans.tolist(), links))
 
-#%% loop through the links and open a new webdriver
+# loop through the links and open a new webdriver (for all 150 stocks)
 
 for name, link in links_name.items():
     print("loading page...")
@@ -149,35 +149,6 @@ for name, link in links_name.items():
     print("saving dataframe to csv format...")
     dfs.to_csv("./output/" + name.replace(" ", "_") + ".csv")
 
-    
-#%%
-# browser = webdriver.Chrome()
-# browser.get(links[20] + "-historical-data")
-#%%
-
-# def simulateClick(elementId):
-#     for i in range(10):
-#         try:
-#             browser.find_element_by_id(elementId).click()
-#         except:
-#             closePopUp()
-#             print("retry in 1s...")
-#             time.sleep(1)
-
-# simulateClick("widgetFieldDateRange")      
-sDate = browser.find_element_by_id("startDate")
-sDate.clear()
-sDate.send_keys("03/01/2015")    
-browser.find_element_by_id("applyBtn").click()
-time.sleep(5)
-
-# dfs = pd.read_html(browser.page_source, attrs = {"id" : "curr_table"})
-# dfs = dfs[0]
-# browser.close() # close the driver window
-dfs['Date']= pd.to_datetime(dfs['Date']) # convert column type to datetime format
-
-# dfs 
-    
 
 
 
