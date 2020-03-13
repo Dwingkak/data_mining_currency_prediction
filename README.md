@@ -1,5 +1,5 @@
 # data_mining_currency_prediction
  A data mining project to predict currency rate with stock prices
 
-Web scraping video:
-Kak D-Wing: https://youtu.be/FGedNjDPRx0
+Mile stone 1 video:
+Kak D-Wing: https://www.youtube.com/watch?v=2LbTX30vSzQ
