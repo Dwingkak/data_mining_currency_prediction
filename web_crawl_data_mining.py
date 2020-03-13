@@ -25,8 +25,8 @@ def closePopUp():
         print("closing popup menu...")
         close_popUp = browser.find_element_by_xpath("/html/body/div[7]/div[2]/i")
         close_popUp.click()
-    except:
-        print("fail to close pop up menu...")
+    except Exception as exc:
+        print("fail to close pop up menu: {}".format(exc))
 
 def simulateClick(elementId):
     '''Simulate mouse click on given ID'''
