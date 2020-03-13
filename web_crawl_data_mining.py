@@ -120,7 +120,7 @@ browser.close()
 df = pd.DataFrame(rows, columns = headers)
 
 # saving dataframe in csv format
-df.to_csv("./output/top150.csv")
+df.to_csv("./other/top150.csv")
 
 # combining links and stocks name
 links_name = dict(zip(df.name_trans.tolist(), links))
