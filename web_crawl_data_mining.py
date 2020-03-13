@@ -124,7 +124,7 @@ df.to_csv("./other/top150.csv")
 
 # combining links and stocks name
 links_name = dict(zip(df.name_trans.tolist(), links))
-
+#%%
 # loop through the links and open a new webdriver (for all 150 stocks)
 
 for name, link in links_name.items():
