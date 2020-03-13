@@ -30,8 +30,8 @@ browser.close()
 data = data.iloc[:,0:2]
 
 # search for item with the name THB100
-tbh_index = data["USD"] == "THB100"
-tbh = data.index[tbh_index].tolist()
+thb_index = data["USD"] == "THB100"
+thb = data.index[tbh_index].tolist()
 
 # removing unrelevant value at USD column
 clean_data = data.iloc[:tbh[0] - 1]
