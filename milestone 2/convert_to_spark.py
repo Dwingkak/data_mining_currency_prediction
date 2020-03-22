@@ -34,12 +34,20 @@ for file in csv_files:
     target = os.path.join(root_dir, file)
     print("converting {}...".format(file))
     df_pandas = pd.read_csv(target)
-    df = spark.createDataFrame(df_pandas)
+    try:
+        df = spark.createDataFrame(df_pandas)
+    except:
+        print("attempting correction method...")
+        columns = df_pandas.columns.to_list()
+        object_list = [column for column in columns if df_pandas[column].dtype == 'O']
+        df_pandas[object_list] = df_pandas[object_list].astype(str)
+        df = spark.createDataFrame(df_pandas)
     output_dir = os.path.join(output, file)
     df.write.format("csv")\
         .mode("overwrite")\
             .option("header", "true")\
                 .save(output_dir)
+
 
 
 
