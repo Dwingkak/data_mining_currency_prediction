@@ -31,7 +31,7 @@ data = data.iloc[:,0:2]
 
 data.rename(columns = {data.columns[0] : "date"}, inplace = True)
 data["date"] = pd.to_datetime(data["date"])
-save dataframe into csv file
+# save dataframe into csv file
 data.to_csv("./other/myr.csv")
 
 
