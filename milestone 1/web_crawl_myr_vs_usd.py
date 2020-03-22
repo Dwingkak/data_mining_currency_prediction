@@ -29,10 +29,10 @@ browser.close()
 # keep only the first three columns
 data = data.iloc[:,0:2]
 
-# save dataframe into csv file
+data.rename(columns = {data.columns[0] : "date"}, inplace = True)
+data["date"] = pd.to_datetime(data["date"])
+save dataframe into csv file
 data.to_csv("./other/myr.csv")
-
-
 
 
 
