@@ -4,8 +4,23 @@ Created on Fri May  8 18:41:03 2020
 
 @author: Kdwing
 """
+#%% initiating pyspark
+import findspark
+findspark.init()
 
-import pandas as pd
+from pyspark.context import SparkContext
+from pyspark.sql.session import SparkSession
+
+spark = SparkSession.builder.enableHiveSupport().getOrCreate()
+spark.sql("use Project")
+#%% read csv from Hive (myr.csv)
+
+myr_csv = spark.read.option("header", "true")\
+            .option("inferSchema", "true")\
+                .csv("./spark-warehouse/project.db/malaysia_usd")
+myr_df = myr_csv.toPandas()
+
+#%% Workflow of data cleaning
 
 # in the database, it consists of three type of different
 # table structure.
@@ -14,38 +29,71 @@ import pandas as pd
 # 3) stock prices of the top 150 for the past five years
 
 #%% data cleaning on Exchange rate of MYR
-df_myr = pd.read_csv("./milestone_1/other/myr.csv")
-df_myr.info()
+import pandas as pd
+myr_df.info()
 
 # data structure in the table:
 # date: int64
 # USD: float64
 
 # check if any missing data in the dataframe
-print("\n", df_myr.isnull().values.any())
+print("\n", myr_df.isnull().values.any())
+
+# No missing data is found in the dataset. Therefore, no cleaning is required 
+# for the dataset.
+
+#%% loading Hive data for top150.csv
+
+top150_csv = spark.read.option("header", "true")\
+            .option("inferSchema", "true")\
+                .csv("./spark-warehouse/project.db/top150")
+top150_df = top150_csv.toPandas()
 
 #%% data cleaning on dataframe with top 150 capital values
-df_top150 = pd.read_csv("./milestone_1/other/top150.csv")
 # remove extra index column
 # drop unnessary columns: last, pair_change_percent, turnover
 drop_columns = ["Unnamed: 0", "last", "pair_change_percent",
-                "turnover_volume"]
-df_top150.drop(labels = drop_columns, axis = 1, inplace = True)
+                "turnover_cap"]
+top150_df.drop(labels = drop_columns, axis = 1, inplace = True)
 # rename columns
-df_top150.columns = ["name", "symbol", "sector", "industry", "market_cap"]
+top150_df.columns = ["name", "symbol", "sector", "industry", "market_cap"]
 
 # replace NaN row with "unknown"
-df_top150.sector[df_top150.sector.isnull()] = "unknown"
-df_top150.industry[df_top150.industry.isnull()] = "unknown"
+top150_df.sector[top150_df.sector.isnull()] = "unknown"
+top150_df.industry[top150_df.industry.isnull()] = "unknown"
 
 # create a new column and convert market capital from string to value
 def convert_string_to_value(string):
     number = float(string[:-1])
     return number * 1e9
 
-df_top150["market_cap_value"] = df_top150.market_cap.apply(convert_string_to_value)
+top150_df["market_cap_value"] = top150_df.market_cap.apply(convert_string_to_value)
 
-df_top150.to_csv("./milestone_1/cleaned_data/top150/top150.csv", index = False)
+top150_df.to_csv("./milestone_1/cleaned_data/top150/top150.csv", index = False)
+
+#%% Create new database to store cleaned data
+
+spark.sql("create database cleaned_data")
+spark.sql("use cleaned_data")
+#%% store top150 cleaned csv into Hive
+spark.sql("CREATE TABLE top150 " + 
+          "(name STRING, symbol STRING, " +
+          "sector STRING, industry STRING, " + 
+          "market_cap STRING, market_cap_value FLOAT) " +
+          "row format delimited fields terminated by ',' " + 
+          "stored as textfile")
+
+#%% load table top150 into the database
+
+spark.sql("load data local inpath './milestone_1/cleaned_data/top150/top150.csv'\
+                 overwrite into table top150")
+
+#%% obtain all path csv path names for stock price csv
+import os
+
+paths = os.listdir("./spark-warehouse/project.db")
+unwanted_path = ["malaysia_usd", "top150"]
+paths_150 = [path for path in paths if path not in unwanted_path]
 
 #%% data clearning on stock prices for all 150 companies
 import os
