@@ -106,13 +106,15 @@ def conversion_string2value(string):
     elif last_char == "M":
         return float(string[:-1]) * 1e6
 
-# obtain full list of csv for all 150 companies stock
-full_list = os.listdir("./milestone_1/output")
 # loop through the entire list and perform data cleaning
 i = 1 # a counter
-for path in full_list:
+for path in paths_150:
     if i % 10 == 0:
         print("[INFO] processing {}/{}".format(i, len(full_list)))
+    df_company = spark.read.option("header", "true")\
+            .option("inferSchema", "true")\
+                .csv("./spark-warehouse/project.db/" + path)
+    df_company= df_company.toPandas()
     df_company = pd.read_csv("./milestone_1/output/" + path)
     # remove index name, and change %
     drop_columns = ["Unnamed: 0", "Change %"]
@@ -123,6 +125,26 @@ for path in full_list:
     df_company.to_csv("./milestone_1/cleaned_data/companies/" + path, 
                       index = False)
     i += 1
+
+#%% saving file to Hive
+import glob
+csv_paths = glob.glob("./milestone_1/cleaned_data/companies/*.csv")
+counter = 1
+for csv_path in csv_paths:
+    if counter % 10 == 0:
+        print("[INFO] processing {}/{}".format(counter, len(csv_paths)))
+    csv_file = csv_path.split("\\")
+    name = csv_file[1][: csv_file[1].find(".")]
+    path = csv_path.replace("\\", "/")
+    spark.sql("CREATE Table " + name +
+              " (Date STRING, Price FLOAT, " +
+              "Open FLOAT, High FLOAT, Low FLOAT, " +
+              "`Vol.` FLOAT) " +
+              "row format delimited fields terminated by ',' " +
+              "stored as textfile")
+    spark.sql("load data local inpath '" + path +
+              "' overwrite into table " + name)
+    counter += 1
     
 
 
