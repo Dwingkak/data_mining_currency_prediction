@@ -126,4 +126,4 @@ dmypy.json
 chromedriver.exe
 *.dat
 *.crc
-
+*.csv
