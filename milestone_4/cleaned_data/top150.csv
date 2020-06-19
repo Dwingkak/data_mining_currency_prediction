@@ -1,0 +1,151 @@
+name,symbol,sector,industry,market_cap,market_cap_value
+Malayan Banking,MBBM,Financial,Money Center Banks,93.08B,93080000000.0
+Tenaga Nasional,TENA,Utilities,Electric Utilities,70.63B,70630000000.0
+Public Bank,PUBM,Financial,Money Center Banks,62.89B,62890000000.0
+IHH Healthcare,IHHH,Healthcare,Healthcare Facilities,48.78B,48780000000.0
+CIMB Group,CIMB,Financial,Regional Banks,42.37B,42370000000.0
+Maxis,MXSC,Services,Communications Services,41.06B,41060000000.0
+Petronas Chemicals,PCGB,Basic Materials,Chemical Manufacturing,37.20B,37200000000.0
+Axiata,AXIA,Services,Communications Services,36.11B,36110000000.0
+MISC,MISC,Transportation,Water Transportation,33.48B,33479999999.999996
+DiGi.Com,DSOM,Services,Communications Services,32.73B,32729999999.999996
+Hong Leong Bank,HLBB,Financial,Regional Banks,31.69B,31690000000.0
+Nestle,NESM,Consumer/Non-Cyclical,Food Processing,31.38B,31380000000.0
+Sime Darby Plantation,SIPL,Consumer/Non-Cyclical,Food Processing,30.71B,30710000000.0
+Petronas Gas,PGAS,Energy,Oil & Gas Operations,30.47B,30470000000.0
+PPB,PEPT,Consumer/Non-Cyclical,Food Processing,25.01B,25010000000.0
+IOI Corp,IOIB,Consumer/Non-Cyclical,Crops,24.64B,24640000000.0
+Hartalega,HTHB,Healthcare,Medical Equipment & Supplies,22.22B,22220000000.0
+RHB Bank,RHBC,Financial,Regional Banks,22.06B,22060000000.0
+Kuala Lumpur Kepong,KLKK,Consumer/Non-Cyclical,Crops,21.62B,21620000000.0
+Hap Seng Consolidated,HAPS,Basic Materials,Chemical Manufacturing,21.41B,21410000000.0
+Petronas Dagangan,PETR,Energy,Oil & Gas Operations,19.77B,19770000000.0
+Dialog,DIAL,Energy,Oil Well Services & Equipment,18.34B,18340000000.0
+Top Glove Corp,TPGC,Healthcare,Medical Equipment & Supplies,16.68B,16680000000.0
+Genting,GENT,Services,Hotels & Motels,16.67B,16670000000.000002
+Hong Leong Financial,HLCB,Financial,Regional Banks,16.09B,16090000000.0
+Genting Malaysia,GENM,Services,Hotels & Motels,15.50B,15500000000.0
+Press Metal Bhd,PMET,Basic Materials,Metal Mining,14.90B,14900000000.0
+KLCC Property,KLCC,Services,Real Estate Operations,14.80B,14800000000.0
+QL Resources,QRES,Consumer/Non-Cyclical,Food Processing,13.08B,13080000000.0
+Telekom Malaysia,TLMM,Services,Communications Services,12.95B,12950000000.0
+Sime Darby,SIME,Services,Retail (Specialty),12.58B,12580000000.0
+Westports,WPHB,Transportation,Misc. Transportation,10.74B,10740000000.0
+Fraser Neave,FRAS,Consumer/Non-Cyclical,Beverages (Nonalcoholic),10.53B,10530000000.0
+AMMB,AMMB,Financial,Regional Banks,10.34B,10340000000.0
+Malaysia Airport,MAHB,Transportation,Misc. Transportation,9.77B,9770000000.0
+YTL Corp,YTLS,Utilities,Electric Utilities,8.93B,8930000000.0
+Gamuda,GAMU,Capital Goods,Construction Services,8.29B,8289999999.999999
+Genting Plantations,GENP,Consumer/Non-Cyclical,Crops,8.23B,8230000000.0
+Sunway,SWAY,Capital Goods,Construction Services,7.99B,7990000000.0
+Carlsberg Brewery,CBMS,Consumer/Non-Cyclical,Beverages (Alcoholic),7.53B,7530000000.0
+Kossan Rubber Ind,KRIB,Healthcare,Medical Equipment & Supplies,6.78B,6780000000.0
+IGB REIT,IGRE,Services,Real Estate Operations,6.75B,6750000000.0
+Heineken,HEIN,Consumer/Non-Cyclical,Beverages (Alcoholic),6.63B,6630000000.0
+BIMB,BIMB,Financial,S&Ls/Savings Banks,6.45B,6450000000.0
+IJM Corp,IJMS,Capital Goods,Construction Services,6.44B,6440000000.0
+Yinson,YINS,Capital Goods,Construction - Raw Materials,6.05B,6050000000.0
+Serba Dinamik,SERB,Energy,Oil Well Services & Equipment,5.64B,5640000000.0
+Batu Kawan,BTKW,Basic Materials,Chemical Manufacturing,5.64B,5640000000.0
+TIME Dotcom,TCOM,Services,Communications Services,5.53B,5530000000.0
+LPI Capital,LOND,Financial,Insurance (Prop. & Casualty),5.39B,5390000000.0
+Sunway Real Estate Invest Trust,SUNW,Services,Real Estate Operations,5.30B,5300000000.0
+Pavilion REIT,PREI,Services,Real Estate Operations,5.23B,5230000000.0
+Astro Malaysia,ASTR,Services,Business Services,5.21B,5210000000.0
+United Plantations,UTPS,Consumer/Non-Cyclical,Crops,5.18B,5180000000.0
+IOI Properties,IOIP,Capital Goods,Construction Services,5.12B,5120000000.0
+YTL Power Int,YTLP,Capital Goods,Construction Services,5.10B,5100000000.0
+Malaysia Building,MBSS,Financial,Consumer Financial Services,4.63B,4630000000.0
+Sime Darby Property,SIPR,Capital Goods,Construction Services,4.59B,4590000000.0
+Scientex Bhd,STIK,Basic Materials,Containers & Packaging,4.28B,4280000000.0000005
+Bursa Malaysia,BMYS,Financial,Investment Services,4.27B,4269999999.9999995
+KPJ Healthcare,KPJH,Healthcare,Healthcare Facilities,4.18B,4179999999.9999995
+SP Setia,SETI,Capital Goods,Construction Services,4.08B,4080000000.0
+Malakoff Corporation Bhd,MALA,Utilities,Electric Utilities,3.86B,3860000000.0
+Inari Amertron,INAR,Technology,Semiconductors,3.85B,3850000000.0
+UOA Development,UOAD,Capital Goods,Construction Services,3.70B,3700000000.0
+S P Setia Pref,SETIq,Capital Goods,Construction Services,3.65B,3650000000.0
+ViTrox Corp,VTRX,Technology,Scientific & Technical Instr.,3.57B,3570000000.0
+Gas Malaysia,GASM,Utilities,Natural Gas Utilities,3.51B,3510000000.0
+Oriental,OTLS,Consumer Cyclical,Auto & Truck Parts,3.48B,3480000000.0
+Felda Global Ventures,FGVH,Consumer/Non-Cyclical,Crops,3.47B,3470000000.0
+DRB Hicom,DRBM,Consumer Cyclical,Auto & Truck Manufacturers,3.46B,3460000000.0
+MY EG Services,MYEG,Technology,Software & Programming,3.45B,3450000000.0
+Aeon Credit Service,ANCR,Financial,Consumer Financial Services,3.35B,3350000000.0
+Syarikat Takaful,TAKA,Financial,Insurance (Miscellaneous),3.31B,3310000000.0
+BAT Malaysia,BATO,Consumer/Non-Cyclical,Tobacco,3.27B,3270000000.0
+Lotte Chemical,LOTT,Basic Materials,Chemical Manufacturing,3.16B,3160000000.0
+Alliance Bank Malaysia,ALLI,Financial,Regional Banks,3.08B,3080000000.0
+Magnum,MAGM,Services,Casinos & Gaming,3.03B,3030000000.0
+Berjaya Sports Toto,BSTB,Services,Casinos & Gaming,3.00B,3000000000.0
+AFFIN,AFIN,Financial,Regional Banks,2.98B,2980000000.0
+Airasia,AIRA,Transportation,Airline,2.97B,2970000000.0
+UMW,UMWS,Consumer Cyclical,Auto & Truck Manufacturers,2.86B,2860000000.0
+IGB,IGBB,Services,Real Estate Operations,2.60B,2600000000.0
+Dutch Lady Milk,DBMS,Consumer/Non-Cyclical,Food Processing,2.57B,2570000000.0
+Hong Leong Ind,HLIB,Technology,Semiconductors,2.56B,2560000000.0
+Leong Hup International Berhad,LEOG,Consumer/Non-Cyclical,Fish/Livestock,2.45B,2450000000.0
+Supermax Corp,SUPM,Healthcare,Medical Equipment & Supplies,2.41B,2410000000.0
+Lafarge Malayan Cement,MALY,Capital Goods,Construction - Raw Materials,2.41B,2410000000.0
+Allianz Malaysia,AINM,Financial,Insurance (Prop. & Casualty),2.38B,2380000000.0
+Lingkaran Trans Kota,LTKH,Transportation,Misc. Transportation,2.36B,2360000000.0
+MMC Corp,MMCB,Transportation,Misc. Transportation,2.24B,2240000000.0
+Malaysian Resources,MYRS,Capital Goods,Construction Services,2.23B,2230000000.0
+Selangor Properties,SELS,Services,Real Estate Operations,2.15B,2150000000.0
+Shangri La Hotels Malaysia,SHGM,Services,Hotels & Motels,2.11B,2109999999.9999998
+UEM Sunrise,UMSB,Capital Goods,Construction Services,2.04B,2040000000.0
+Sunway Construction Group Bhd,SCOG,Capital Goods,Construction Services,2.00B,2000000000.0
+YTL Hospitality REIT,YTLR,Services,Real Estate Operations,1.99B,1990000000.0
+Guan Chong,GNCH,Consumer/Non-Cyclical,Food Processing,1.97B,1970000000.0
+CapitaLand Malaysia Mall,CAMA,Services,Real Estate Operations,1.93B,1930000000.0
+Mega First Corp,MEGA,Utilities,Electric Utilities,1.88B,1880000000.0
+Malaysian Pacific Ind,MPIM,Technology,Semiconductors,1.85B,1850000000.0
+Bintulu Port,BPOT,Transportation,Misc. Transportation,1.84B,1840000000.0
+Padini,PDNI,Services,Retail (Apparel),1.84B,1840000000.0
+OSK,OSKH,Capital Goods,Construction Services,1.81B,1810000000.0
+Greatech Technology,GREA,Capital Goods,Misc. Capital Goods,1.80B,1800000000.0
+Faber,UEME,Services,Business Services,1.79B,1790000000.0
+Cahya Mata Sarawak,CMSM,Capital Goods,Construction - Raw Materials,1.78B,1780000000.0
+Panasonic Manufacture,PMMY,Basic Materials,Misc. Fabricated Products,1.77B,1770000000.0
+VS Industry Bhd,VSID,Technology,Electronic Instr. & Controls,1.77B,1770000000.0
+Sapura Energy,SAEN,Energy,Oil Well Services & Equipment,1.76B,1760000000.0
+Bermaz Auto,BERA,Consumer Cyclical,Auto & Truck Manufacturers,1.74B,1740000000.0
+MI Technovation,MITE,Capital Goods,Misc. Capital Goods,1.72B,1720000000.0
+Frontken Corp,FRKN,Capital Goods,Construction Services,1.67B,1670000000.0
+Pentamaster Corp,PMAS,Technology,Electronic Instr. & Controls,1.64B,1640000000.0
+Taliworks Corporation Bhd,TWRK,Utilities,Water Utilities,1.59B,1590000000.0
+7 Eleven,SEVE,Services,Retail (Grocery),1.56B,1560000000.0
+Far East,FEHS,Consumer/Non-Cyclical,Crops,1.53B,1530000000.0
+Keck Seng Malaysia,KSMS,Consumer/Non-Cyclical,Food Processing,1.44B,1440000000.0
+Sarawak Oil Palms,SOPS,Consumer/Non-Cyclical,Crops,1.43B,1430000000.0
+Focus Dynamics,FCDY,Capital Goods,Misc. Capital Goods,1.40B,1400000000.0
+AEON Co,AEOM,Services,Retail (Department & Discount),1.40B,1400000000.0
+Eco World Intl,ECOD,Services,Real Estate Operations,1.40B,1400000000.0
+Matrix Concepts,MATR,Capital Goods,Construction Services,1.38B,1380000000.0
+YNH Property,YNHB,Capital Goods,Construction Services,1.37B,1370000000.0
+Unisem M,UNSM,Technology,Semiconductors,1.35B,1350000000.0
+ATA IMS,ATAI,Basic Materials,Containers & Packaging,1.32B,1320000000.0
+TSH Resources,TSHR,Consumer/Non-Cyclical,Crops,1.31B,1310000000.0
+TA Global,TAGL,Services,Hotels & Motels,1.30B,1300000000.0
+Eco World Develop,ECOW,Capital Goods,Construction Services,1.28B,1280000000.0
+Kerjaya Prospek,KREJ,Basic Materials,Metal Mining,1.27B,1270000000.0
+Dayang Enterprise,DEHB,Energy,Oil Well Services & Equipment,1.27B,1270000000.0
+Velesto Energy,VELE,Energy,Oil Well Services & Equipment,1.27B,1270000000.0
+Mah Sing,MAHS,Capital Goods,Construction Services,1.26B,1260000000.0
+Hap Seng Plantations,HAPP,Consumer/Non-Cyclical,Crops,1.24B,1240000000.0
+SKP Resources Bhd,SKPR,Basic Materials,Fabricated Plastic & Rubber,1.24B,1240000000.0
+Boustead,BOUS,Energy,Oil & Gas Operations,1.22B,1220000000.0
+Tropicana Corp,TROP,Capital Goods,Construction Services,1.21B,1210000000.0
+IJM Plantations,IJMP,Consumer/Non-Cyclical,Crops,1.20B,1200000000.0
+Uwc,UWCB,unknown,unknown,1.20B,1200000000.0
+GHL Systems,GHLS,Technology,Software & Programming,1.18B,1180000000.0
+Ekovest,EKOV,Capital Goods,Construction Services,1.17B,1170000000.0
+Berjaya Corp,BGRO,Healthcare,Medical Equipment & Supplies,1.17B,1170000000.0
+MBM Resources,MBMR,Consumer Cyclical,Auto & Truck Parts,1.16B,1160000000.0
+Ideal Jacobs,WIDA,Basic Materials,Fabricated Plastic & Rubber,1.08B,1080000000.0
+LBS Bina Pref,LBSBq,Capital Goods,Construction Services,1.08B,1080000000.0
+Datasonic,DSON,Technology,Semiconductors,1.07B,1070000000.0000001
+Globetronics Tech,GNIC,Technology,Semiconductors,1.05B,1050000000.0
+Ta Ann,TAAN,Basic Materials,Forestry & Wood Products,1.04B,1040000000.0
+Uchi Technologies Bhd,UCHI,Technology,Semiconductors,1.03B,1030000000.0
+Ranhill Holdings,RANH,Utilities,Electric Utilities,1.02B,1020000000.0
