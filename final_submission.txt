@@ -1,0 +1,14 @@
+Kak D-Wing WQD 180125
+
+Submission of full project:
+
+github:https://github.com/Dwingkak/data_mining_currency_prediction
+
+milestone 1: https://github.com/Dwingkak/data_mining_currency_prediction/tree/master/milestone_1
+milestone 2: https://github.com/Dwingkak/data_mining_currency_prediction/tree/master/milestone_2
+milestone 3: https://github.com/Dwingkak/data_mining_currency_prediction/tree/master/milestone_3
+milestone 4: https://github.com/Dwingkak/data_mining_currency_prediction/tree/master/milestone_4
+milestone 5: https://github.com/Dwingkak/data_mining_currency_prediction/tree/master/milestone_5
+
+Presentation slide: https://github.com/Dwingkak/data_mining_currency_prediction/blob/master/milestone_5/Estimation%20of%20Malaysian%20Ringgit%20Exchange%20Rate%20using%20Stock.pptx
+Presentation video link: https://youtu.be/j7Dh5lWqfmU
